@@ -15,8 +15,15 @@ if (area == "Front-End"){
         
             while (moreTechnologies != ""){
                 alert(`Tecnologia ${moreTechnologies} adicionada`);
-                var moreTechnologies = prompt(`Qual outra tecnologia deseja se especializar?`);
+                var moreTechnologies = prompt(`Qual outra tecnologia deseja se especializar? (deixe em branco se não deseja adicionais mais nenhuma)`);
+
+                if(moreTechnologies == ""){
+                    alert("Recebemos suas respostas. Obrigado!"); 
+                }
             }
+
+        }else{
+            alert("Recebemos suas respostas. Obrigado!");
         }
     }
 }
@@ -36,8 +43,15 @@ if(area == "Back-End") {
         
             while (moreTechnologies != ""){
                 alert(`Tecnologia ${moreTechnologies} adicionada`);
-                var moreTechnologies = prompt(`Qual outra tecnologia deseja se especializar?`);
+                var moreTechnologies = prompt(`Qual outra tecnologia deseja se especializar? (deixe em branco se não deseja adicionais mais nenhuma)`);
+
+                if(moreTechnologies == ""){
+                    alert("Recebemos suas respostas. Obrigado!"); 
+                }
             }
+
+        }else{
+            alert("Recebemos suas respostas. Obrigado!");
         }
     }
 }
